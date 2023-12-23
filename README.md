@@ -1,9 +1,9 @@
-#What is it?
+#What is it?<br>
 locate files or dirs 
-
-#Usage:
-`git clone https://github.com/yashasnadigsyn/loc`
-`cd loc`
-`cargo run filename`
+<br>
+#Usage:<br>
+`git clone https://github.com/yashasnadigsyn/loc`<br>
+`cd loc`<br>
+`cargo run filename`<br>
 
 
