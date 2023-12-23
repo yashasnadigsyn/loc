@@ -1,13 +1,12 @@
 use std::env;
 use std::path::Path;
 use std::process::exit;
-use whoami;
 use comfy_table::Table;
 
 static IGNORE_DIRS: [&str; 3] = ["dev", "proc", "sys"]; 
 
 fn main() {
-    let starting_path = "/home/".to_owned() + whoami::username().as_str(); //starting path for searching files and folders
+    //let starting_path = "/home/".to_owned() + whoami::username().as_str(); //starting path for searching files and folders
     let args: Vec<String> = env::args().collect();
     let mut files_matched: Vec<String> = Vec::new();
     let search_term = args.get(1);
