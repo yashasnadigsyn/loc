@@ -1,5 +1,5 @@
 # What is it?
-locate a file or dir in rust
+locate a file or dir written in rust
 
 # Usage:
 
